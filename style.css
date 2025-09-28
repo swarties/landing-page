@@ -35,7 +35,7 @@
     /* gap: 2rem; */
     padding-left: 100px;
     padding-right: 100px;
-    /* align-items: center; */
+    align-items: start;
     flex-basis: 40%;
     padding-bottom: 50px;
 }
@@ -86,17 +86,20 @@
 
 .btn1 {
     text-decoration: none;
-    display: block;
+    text-align: center;
     color: white;
     background-color: #3882F6;
     display: inline-block;
-    border-radius: 20px;
+    border-radius: 10px;
     box-shadow: none;
-    border: none;
-    padding: 15px 20px;
-    margin-bottom: 10px;
-    margin-top: 50px;
+    height: min-content;
     transition: background-color 0.3s ease-in-out;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    flex-grow: 0;
+    flex-shrink: 1;
 }
 
 .btn1:hover {
@@ -176,8 +179,8 @@
     height: 200px;
     width: auto;
     margin-top: 100px;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 60px;
+    margin-right: 60px;
     border-radius: 10px;
     display: flex;
     flex-direction: row;
@@ -213,4 +216,15 @@
     padding-right: 35px;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+.callactionbtn:hover {
+    background-color: #ffffff63;
+}
+
+.item6 {
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+    font-size: 24px;
 }
