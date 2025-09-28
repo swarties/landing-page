@@ -22,6 +22,7 @@
     padding-left: 100px;
     padding-right: 100px;
     align-items: center;
+    padding-bottom: 50px;
 }
 
 .item2 {
@@ -36,6 +37,7 @@
     padding-right: 100px;
     /* align-items: center; */
     flex-basis: 40%;
+    padding-bottom: 50px;
 }
 
 .bigitem2 {
@@ -73,12 +75,11 @@
 }
 
 #placeholder {
-    height: max;
     flex-basis: 60%;
     background-color: #1F2937;
     width: auto;
     margin-right: 100px;
-    margin-bottom: 25px;
+    margin-bottom: 50px;
     border: 1px solid white;
     border-radius: 15px;
 }
@@ -93,11 +94,123 @@
     box-shadow: none;
     border: none;
     padding: 15px 20px;
-    margin-bottom: 30px;
-
+    margin-bottom: 10px;
+    margin-top: 50px;
     transition: background-color 0.3s ease-in-out;
 }
 
 .btn1:hover {
     background-color: #275aad;
+}
+
+.item3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.small3 {
+    display: flex;
+
+    flex-grow: 0;
+    justify-content: center;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+#blueplaceholder {
+    height: 150px;
+    width: 150px;
+    border: 4px #3882F6 solid;
+    border-radius: 20px;
+}
+
+.item3 #bigtext {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.smaller3 {
+    display: flex;
+    flex-direction: column;
+    flex-basis: auto;
+    width: min-content;
+    text-align: center;
+}
+
+.item4 {
+    background-color: #e5e7eb;
+}
+
+.quote {
+    color: #1f2937;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 36px;
+    text-align: center;
+    margin: 25px;
+    margin-top: 175px;
+    margin-bottom: 50px;
+    width: auto;
+}
+
+.refer {
+    color: #1f2937;
+    text-align: right;
+    font-weight: 800;
+    font-size: 32px;
+    margin-right: 75px;
+}
+
+.item5 {
+    background-color: white;
+    height: 400px;
+    width: auto;
+}
+
+.smaller5 {
+    box-sizing: border-box;
+    background-color: #3882F6;
+    height: 200px;
+    width: auto;
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.callactiontext #on {
+    color: white;
+    font-weight: 800;
+    font-size: 32px;
+
+}
+
+.callactiontext #tw {
+    color: #e5e7eb;
+    font-weight: 300;
+    font-size: 24px;
+}
+
+.callactionbtn {
+    text-decoration: none;
+    text-align: center;
+    border: 3px solid white;
+    color: white;
+    background-color: #3882F6;
+    display: inline-block;
+    border-radius: 10px;
+    box-shadow: none;
+    height: min-content;
+    transition: background-color 0.3s ease-in-out;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
